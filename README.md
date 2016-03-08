@@ -1,4 +1,4 @@
-# canary-test
+# canary-build
 A service used for canary testing container builds.
 
 ## Overview
