@@ -1,0 +1,23 @@
+{
+  "name": "canary-build",
+  "version": "0.0.0",
+  "description": "Project used for build canary testing ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RunnableTest/canary-build.git"
+  },
+  "author": "Ryan Sandor Richards <ryan@runnable.com> (http://www.runnable.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RunnableTest/canary-build/issues"
+  },
+  "homepage": "https://github.com/RunnableTest/canary-build#readme",
+  "dependencies": {
+    "bunyan": "^1.7.1",
+    "hapi": "^13.0.0"
+  }
+}
