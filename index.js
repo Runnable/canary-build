@@ -9,7 +9,7 @@ const log = require('bunyan').createLogger({
   streams: [{ level: process.env.LOG_LEVEL, stream: process.stdout }]
 })
 
-var requestCount = 0
+var requestWord = 'a'
 
 const server = new Hapi.Server()
 server.connection({ port: port })
@@ -18,7 +18,7 @@ server.route({
   path: '/',
   handler: (request, respond) => {
     log.info('GET /')
-    respond({ count: ++requestCount })
+    respond({ word: requestWord += 'a'})
   }
 })
 server.start()
