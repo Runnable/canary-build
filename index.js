@@ -24,5 +24,4 @@ server.route({
 server.start()
   .then(() => { log.info(`canary-build listening on port ${port}`) })
 
-// Awesome
 // saucesome
