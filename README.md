@@ -18,3 +18,4 @@ A service used for canary testing container builds.
 
 ## License
 MIT
+Lolz
